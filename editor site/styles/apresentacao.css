@@ -12,7 +12,8 @@ html, body{
     width: 100vw;
 }
 
-.apresentacao {
+.apresentacao, 
+.servicos {
     display: flex;
     flex-direction: column; /* Organiza os elementos em colunas */
     align-items: center;
@@ -100,7 +101,8 @@ html, body{
 }
 
 
-.tituloSobreNos{
+.tituloSobreNos, 
+.tituloServicos{
     color: #FFF;
     font-family: Inter;
     font-size: 40px;

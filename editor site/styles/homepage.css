@@ -120,11 +120,6 @@ menu li a{
     transition-duration: .3s;
   }
 
-  /*
-  #checkbox:checked + .toggle .bars {
-    margin-left: 13px;
-  } 
-  */
   
   #checkbox:checked + .toggle #bar2 {
     transform: translateY(14px) rotate(60deg);
@@ -144,13 +139,6 @@ menu li a{
   #checkbox:checked + .toggle {
     transform: rotate(-90deg);
   }
-
-  
-  /* #checkbox:checked + .toggle #bar3 {
-    transform: rotate(90deg);
-    transition-duration: .3s;
-    transform-origin:right;
-  } 
   
 
 
