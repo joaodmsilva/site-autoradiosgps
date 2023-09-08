@@ -1,0 +1,156 @@
+
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em colunas */
+    align-items: center;
+    justify-content: center;
+}
+  
+.ImagemAutoradio{
+    display: inline-block;
+    align-items: center;
+    text-align: center; 
+    margin-top: 30px;
+    padding: 0px;
+}
+
+#logogrande{
+    width: 485px;
+    height: 276px;
+    flex-shrink: 0;
+}
+
+.um, 
+.dois{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 309.985px;
+    margin-top: -38px;
+}
+
+.textoUm,
+.textoDois{
+    width: 582px;
+    height: 309.985px;
+    background: #222121;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: background-color 0.5s ease; 
+}
+
+.textoUm:hover,
+.textoDois:hover {
+    background-color: #333;
+}
+
+.parUm,
+.parDois{
+    color: #FFF;
+    text-align: center;
+    font-family: Assistant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.imagemUm,
+.imagemDois{
+    display: flex;
+    width: 863px;
+    height: 309.985px;
+    transition: transform 0.5s ease;
+}
+
+.imagemUm:hover,
+.imagemDois:hover{
+    transform: scale(1.1);
+}
+
+
+/* Seciton sobre nos */
+
+
+
+.tituloSecao{
+    display: flex;
+    width: 1440px;
+    height: 112.84px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #8C3041;
+    margin-top: -1px;
+}
+
+
+.tituloSobreNos{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;    
+}
+
+.divSobreNos{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   text-align: center; 
+
+}
+
+.imgOficina{
+    width: 747px;
+    height: 677px; 
+    /* background: url(imagens/imagem3.jpg), lightgray 50% / cover no-repeat;*/
+}
+
+.textoSobreNos{
+    display: flex;
+    width: 693px;
+    height: 677px;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(104, 99, 89, 0.65);
+}
+.parAuto{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    padding: 15px ;
+    box-sizing: border-box;
+}
+
+#negrito{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
