@@ -16,7 +16,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="imagens/logo1.png" alt="logo" id="imglogo">
+                <img src="styles/imagens/logo1.png" alt="logo" id="imglogo">
                 <a href="/homepage.html">Autoradios.GPS</a>
             </div>
             <input id="checkbox" type="checkbox" onclick="clickMenu()">
@@ -29,9 +29,9 @@
                 <ul>
                     <li><a href="index.html" target="_parent">Home</a></li>
                     <li><a href="#sobrenos" target="_parent">Sobre nós</a></li>
-                    <li><a href="Servicos.html" target="_parent">Serviços</a></li>
+                    <li><a href="#servicos" target="_parent">Serviços</a></li>
                     <li><a href="Orcamentos.html" target="_parent">Orçamentos</a></li>
-                    <li><a href="Galeria.html" target="_parent">Galeria</a></li>
+                    <li><a href="#galeria" target="_parent">Galeria</a></li>
                     <li><a href="Contactos.html" target="_parent">Contactos</a></li>
                 </ul>
            </menu>
@@ -41,19 +41,19 @@
         <section>
             <article class="apresentacao">
                 <div class="ImagemAutoradio">
-                    <img src="imagens/logo1 sem fundo.png" alt="logo grande" id="logogrande">
+                    <img src="styles/imagens/logo1 sem fundo.png" alt="logo grande" id="logogrande">
                 </div>
                 <div class="um">
                     <div class="textoUm">
                         <p class="parUm">Serviços especializados em eletrónica automóvel e AVAC para um carro mais atualizado e confortável.</p>
                     </div>
                     <div class="imagemUm">
-                        <img src="imagens/imagem1.jpg" alt="imagem1 de apresentacao"> 
+                        <img src="styles/imagens/imagem1.jpg" alt="imagem1 de apresentacao"> 
                     </div>
                 </div>
                 <div class="dois">
                     <div class="imagemDois">
-                        <img src="imagens/imgagem2.jpg" alt="imagem2 de apresentacao">
+                        <img src="styles/imagens/imgagem2.jpg" alt="imagem2 de apresentacao">
                     </div>
                     <div class="textoDois">
                         <p class="parDois">Conheça os nos nossos serviços e peça já o seu orçamento.</p>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="divSobreNos" id="sobrenos">    
                     <div class="imgOficina">
-                        <img src="imagens/imagem3.jpg" alt="imagem oficina">
+                        <img src="styles/imagens/imagem3.jpg" alt="imagem oficina">
                     </div>
                     <div class="textoSobreNos">
                         <p class="parAuto"><span id="negrito">Autoradios.Gps</span>  é uma empresa especializada em eletrónica automóvel e sistemas de entretenimento para carros. Com sede em Odivelas, Lisboa, oferecemos soluções de alta qualidade para mecânica automóvel e AVAC auto. <br>
@@ -72,17 +72,19 @@
                     </div>
                 </div>  
             </article>
-            <article class="servicos">
+            <article class="servicos" id="servicos">
                 <div class="tituloSecao">
                     <h1 class="tituloServicos">Serviços</h1>
                 </div>
                 <div class="DiagnosticosAuto">
-                    <h1>Diagnósticos Automóvel</h1>
-                    <h2>Saber mais...</h2>
+                    <div class="ApresentacaoDiagnosticos">
+                            <div><h1 class="titulo">Diagnósticos Automóvel</h1> </div> 
+                            <div><button class="button"><a href="#" class="SaberMais">Saber mais...</a></button></div>
+                    </div>
                     <p>
                         🚗🔧 Precisão e Confiabilidade: Nossos Serviços de Diagnóstico Automóvel 🔧🚗 <br>
                         <br>
-                        Na busca contínua pela saúde e desempenho ideais do seu veículo, apresentamos nossos serviços de diagnóstico automotivo de excelência. Com equipamentos de última geração e uma equipe de técnicos especializados, estamos prontos para desvendar os segredos do seu carro e oferecer soluções precisas para qualquer problema que possa surgir. <br>
+                        Na busca contínua pela saúde e desempenho ideais do seu veículo, apresentamos nossos serviços de diagnóstico auto de excelência. Com equipamentos de última geração e uma equipe de técnicos especializados, estamos prontos para desvendar os segredos do seu carro e oferecer soluções precisas para qualquer problema que possa surgir. <br>
                         <br>
                         🔍 Detecção Avançada de Problemas 🔍 <br> 
                         <br>
@@ -242,7 +244,7 @@
                     </button>
                 </div>
             </article> 
-            <article class="Galeria">
+            <article class="Galeria" id="galeria">
                 <div class="tituloSecao">
                     <h1 class="tituloServicos">Galeria</h1>
                 </div>

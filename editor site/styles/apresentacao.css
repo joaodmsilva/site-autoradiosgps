@@ -156,3 +156,34 @@ html, body{
 }
 
 
+
+
+/* serviços*/
+
+.ApresentacaoDiagnosticos{
+    position: absolute;
+    width: 1440px;
+    height: 421px;
+    background-image: url('imagens/diagnosticosauto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+
+.titulo{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
